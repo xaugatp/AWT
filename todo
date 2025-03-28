@@ -1,0 +1,22 @@
+1) Firstly clone this github repo in you laptops. For that you can simply pull the repo form the link "https://github.com/xaugatp/AWT.git"
+2) Next step is to activate the virtual environment.
+    For that open your terminal in vs code and type "myenv\Scripts\Activate". Make sure you have pythonb and pip installed in your laptop. 
+3) If you are sucessfull upto this point then you will see (myenv) in your terminal. 
+4) Next step is to install the dependencies, for that type "pip install -r requirements.txt"
+5) Then start doing your allocated part. 
+
+6) Create a front end simulating the original Torrens University website landing page.Same like this "https://www.torrens.edu.au/", we will click our group photo and we will replace it. 
+7) Next step is to add the small button or a lono or text   saying chat with ai/ ask anything/ 24/7 support like that .
+8) That button should have drop up feature and once the user click it, it shoul open a interface like chatgpt or deep seek. 
+9) Over there User should be able to type their query.
+10) That user query will hit the backend and using embedding we will change it to vector form.
+11) That will be ranked by the RAG.
+12) RAG result will be given to LLM. 
+13) LLM will give the final response to the end user in the UI. 
+
+Evey time you work.
+1) For first time only "git checkout -b your-branch-name" you can put your name insted of your-branch-name
+2) SO from next time onwards you can just do
+     - "git add ." 
+     - git commit -m "Describe the changes you made"
+     - "git push -u origin your-branch-name"
